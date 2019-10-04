@@ -16,6 +16,9 @@ public class Kit extends Encargue {
 		for(Encargue e:encargues) {
 			c+=e.costo();
 		}
-		return c*0.90f;
+		float f= c*0.90f;
+		
+		System.out.println("kit:"+f);
+		return f;
 	}
 }

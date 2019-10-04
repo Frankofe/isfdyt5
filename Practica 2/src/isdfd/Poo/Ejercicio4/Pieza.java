@@ -7,4 +7,8 @@ public class Pieza extends Encargue{
 	public float costo() {
 		return precio;
 	}
+	
+	public Pieza(float p) {
+		precio=p;
+	}
 }
