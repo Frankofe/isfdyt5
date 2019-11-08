@@ -1,18 +1,19 @@
 package Final;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Cliente {
 
 	private String nombre;
 	private String direccion;
-	private boolean cupon;
-	private boolean delivery;
 	
-	public Cliente(String nombre, String direccion, boolean cupon, boolean delivery) {
+	private List<Cupon> cupones = new ArrayList<Cupon>();
+		
+	public Cliente(String nombre, String direccion) {
 		super();
 		this.nombre = nombre;
 		this.direccion = direccion;
-		this.cupon = cupon;
-		this.delivery = delivery;
 	}
 	public String getNombre() {
 		return nombre;
@@ -26,19 +27,14 @@ public class Cliente {
 	public void setDireccion(String direccion) {
 		this.direccion = direccion;
 	}
-	public boolean isCupon() {
-		return cupon;
-	}
-	public void setCupon(boolean cupon) {
-		this.cupon = cupon;
-	}
-	public boolean isDelivery() {
-		return delivery;
-	}
-	public void setDelivery(boolean delivery) {
-		this.delivery = delivery;
-	}
 	
-	
-	
+	public double aplicarCargos(double total) {
+		double t = total;
+		for(Cupon c: cupones) {
+			t += c.cargo(t);
+		}
+		
+		return t;
+	}
+		
 }

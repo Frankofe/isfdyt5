@@ -3,7 +3,7 @@ package Final;
 public abstract class Helado {
 
 	private Cliente cliente;
-	private int envase;
+	private Envase envase;
 	
 	public Cliente getCliente() {
 		return cliente;
@@ -13,14 +13,15 @@ public abstract class Helado {
 		this.cliente = cliente;
 	}
 
-	public int getEnvase() {
+	public Envase getEnvase() {
 		return envase;
 	}
 
-	public void setEnvase(int envase) {
+	public void setEnvase(Envase envase) {
 		this.envase = envase;
 	}
 
-	public abstract double importe();
-	
+	public double importe() {
+		return getCliente().aplicarCargos(envase.getTamaño());
+	}
 }

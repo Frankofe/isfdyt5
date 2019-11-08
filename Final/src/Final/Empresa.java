@@ -17,7 +17,31 @@ public class Empresa {
 	
 	// Empleados
 	
+	private List <Empleado> empleados = new ArrayList<Empleado>();
+
+	public void addEmpleado (Empleado e) {
+		empleados.add(e);
+	}
 	
+	public void removeEmpleado (Empleado e) {
+		empleados.remove(e);
+	}
+	
+	public int cantidadEmpleados() {
+		return empleados.size();
+	}
+	
+	public double sueldoEmpleado(Empleado e) {
+		return e.sueldo();
+	}
+	
+	public double totalSueldosAPagar() {
+		double total = 0;
+		for (Empleado e: empleados) {
+			total+=e.sueldo();
+		}
+		return total;
+	}
 	
 	//-------------------------------------------------------------------------
 	

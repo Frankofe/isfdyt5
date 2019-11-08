@@ -1,101 +1,344 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="Final.CompraCompuesta" project="Final" 
+  <class id="1" language="java" name="Final.Empleado" project="Final" file="/Final/src/Final/Empleado.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="170" x="302" y="389"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="Final.CompraCompuesta" project="Final" 
     file="/Final/src/Final/CompraCompuesta.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="413" y="355"/>    
+    <position height="153" width="190" x="1006" y="636"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="Final.Empresa" project="Final" file="/Final/src/Final/Empresa.java" binary="false" 
+  <class id="3" language="java" name="Final.Compuesto" project="Final" file="/Final/src/Final/Compuesto.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="151" x="347" y="919"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="Final.Venta" project="Final" file="/Final/src/Final/Venta.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="174" y="152"/>    
+    <position height="207" width="159" x="625" y="389"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="Final.Compra" project="Final" file="/Final/src/Final/Compra.java" binary="false" 
+  <enumeration id="5" language="java" name="Final.Envase" project="Final" file="/Final/src/Final/Envase.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="119" x="916" y="919"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="6" language="java" name="Final.Empresa" project="Final" file="/Final/src/Final/Empresa.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="484" y="152"/>    
+    <position height="387" width="193" x="625" y="-38"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="Final.Articulo" project="Final" file="/Final/src/Final/Articulo.java" 
+  <class id="7" language="java" name="Final.Cupon" project="Final" file="/Final/src/Final/Cupon.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="133" x="708" y="1220"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="Final.Helado" project="Final" file="/Final/src/Final/Helado.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="171" width="144" x="625" y="636"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="Final.Administrativo" project="Final" file="/Final/src/Final/Administrativo.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="467" y="617"/>    
+    <position height="99" width="142" x="-67" y="636"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="Final.Proveedor" project="Final" file="/Final/src/Final/Proveedor.java" 
+  <class id="10" language="java" name="Final.Descuento" project="Final" file="/Final/src/Final/Descuento.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="164" y="460"/>    
+    <position height="99" width="129" x="624" y="1395"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="6" language="java" name="Final.CompraSimple" project="Final" file="/Final/src/Final/CompraSimple.java" 
+  <class id="11" language="java" name="Final.Persona" project="Final" file="/Final/src/Final/Persona.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="588" y="346"/>    
+    <position height="243" width="147" x="115" y="636"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <association id="7">    
-    <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="8" name="compras"/>      
-      <multiplicity id="9" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="3" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="10">    
+  <class id="12" language="java" name="Final.Compra" project="Final" file="/Final/src/Final/Compra.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="172" x="919" y="389"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="Final.Articulo" project="Final" file="/Final/src/Final/Articulo.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="169" x="1121" y="919"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="Final.Delivery" project="Final" file="/Final/src/Final/Delivery.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="129" x="793" y="1395"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="Final.Operario" project="Final" file="/Final/src/Final/Operario.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="116" x="302" y="636"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="Final.Simple" project="Final" file="/Final/src/Final/Simple.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="130" x="538" y="919"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="Final.Main" project="Final" file="/Final/src/Final/Main.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="113" x="202" y="-38"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="Final.Proveedor" project="Final" file="/Final/src/Final/Proveedor.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="157" x="809" y="636"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="Final.Supervisor" project="Final" file="/Final/src/Final/Supervisor.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="127" x="458" y="636"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="Final.CompraSimple" project="Final" file="/Final/src/Final/CompraSimple.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="146" x="1236" y="636"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="Final.Gusto" project="Final" file="/Final/src/Final/Gusto.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="129" x="443" y="1220"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="Final.Cliente" project="Final" file="/Final/src/Final/Cliente.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="168" x="708" y="919"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="23">    
     <end type="SOURCE" refId="6" navigable="false">      
-      <attribute id="11" name="articulo"/>      
-      <multiplicity id="12" minimum="0" maximum="1"/>    
+      <attribute id="24" name="ventas"/>      
+      <multiplicity id="25" minimum="0" maximum="2147483647"/>    
     </end>    
     <end type="TARGET" refId="4" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="13">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="3"/>  
+  <generalization id="26">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="1"/>  
   </generalization>  
-  <generalization id="14">    
-    <end type="SOURCE" refId="6"/>    
-    <end type="TARGET" refId="3"/>  
-  </generalization>  
-  <association id="15">    
-    <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="16" name="articulos"/>      
-      <multiplicity id="17" minimum="0" maximum="2147483647"/>    
+  <association id="27">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="28" name="señor"/>      
+      <multiplicity id="29" minimum="0" maximum="1"/>    
     </end>    
-    <end type="TARGET" refId="4" navigable="true"/>    
+    <end type="TARGET" refId="18" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="18">    
-    <bendpoint x="311" y="270"/>    
-    <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="19" name="señor"/>      
-      <multiplicity id="20" minimum="0" maximum="1"/>    
+  <association id="30">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="31" name="envase"/>      
+      <multiplicity id="32" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="5" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
+  <association id="33">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="34" name="gustos"/>      
+      <multiplicity id="35" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="36">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="37" name="gusto"/>      
+      <multiplicity id="38" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="39">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="40">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <association id="41">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="42" name="helados"/>      
+      <multiplicity id="43" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="44">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <association id="45">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="46" name="empleados"/>      
+      <multiplicity id="47" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="48">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <association id="49">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="50" name="articulos"/>      
+      <multiplicity id="51" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="52">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="53" name="compras"/>      
+      <multiplicity id="54" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="55">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="56" name="cliente"/>      
+      <multiplicity id="57" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="58">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <generalization id="59">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <association id="60">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="61" name="articulo"/>      
+      <multiplicity id="62" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="63">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <association id="64">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="65" name="empleado"/>      
+      <multiplicity id="66" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="67">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="68" name="cupones"/>      
+      <multiplicity id="69" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="70">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    
